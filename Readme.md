@@ -17,7 +17,12 @@ Finding solutions to problems, such as navigating from an origin to a destinatio
 - **Applications:** Maze problem, 15-puzzle, Six Degrees of Kevin Bacon, Tic-Tac-Toe  
 
 ## 2. Knowledge
-- Representing information and reasoning to draw logical inferences.  
+Representing information and reasoning to draw logical inferences. 
+- **Propositional Logic :** Propositional Symbols and Logical Connectives , Model , Knowledge Base , Entailment
+- **Knowledge Engineering :** Using the game Clue
+- **Inference Rules  :** Resolution , DeMorgan's Law , Biconditional, Implication, Double Negation & And Elimination 
+- **First Order Logic :** Universal and Existential Quantification
+- **Applications** - Minesweeper, Knights and Knaves
 
 ## 3. Uncertainty
 - Handling uncertain events using probabilistic methods.  

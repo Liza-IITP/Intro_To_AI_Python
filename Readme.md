@@ -1,41 +1,137 @@
-# CS50's Introduction to Artificial Intelligence with Python
+# CS50’s Introduction to Artificial Intelligence with Python
 
-Artificial Intelligence (AI) encompasses techniques that enable computers to exhibit behaviors that appear intelligent or sentient. AI powers many applications we use daily, such as:
+## 📌 1. Search
 
-- Recognizing faces in photographs on social media.  
-- Defeating world champions in games like chess.  
-- Processing speech in virtual assistants like Siri or Alexa.  
+Search algorithms help computers plan actions, navigate spaces, and solve puzzles by exploring possible states.
 
-This course explores the foundational ideas and techniques that make AI possible:  
+### 🔹 Uninformed Search
+- **Breadth-First Search (BFS)**
+- **Depth-First Search (DFS)**
 
-## 1. Search
-Finding solutions to problems, such as navigating from an origin to a destination or determining the next move in a game.  
+### 🔹 Informed Search
+- **Greedy Best-First Search**
+- **A\* Search**
 
-- **Uninformed Search:** BFS, DFS  
-- **Informed Search:** Greedy Best-First Search, A* Search  
-- **Adversarial Search:** Minimax, Alpha-Beta Pruning, Depth-Limited Minimax  
-- **Applications:** Maze problem, 15-puzzle, Six Degrees of Kevin Bacon, Tic-Tac-Toe  
+### 🔹 Adversarial Search
+- **Minimax**
+- **Alpha–Beta Pruning**
+- **Depth-Limited Minimax**
 
-## 2. Knowledge
-Representing information and reasoning to draw logical inferences. 
-- **Propositional Logic :** Propositional Symbols and Logical Connectives , Model , Knowledge Base , Entailment
-- **Knowledge Engineering :** Using the game Clue
-- **Inference Rules  :** Resolution , DeMorgan's Law , Biconditional, Implication, Double Negation & And Elimination 
-- **First Order Logic :** Universal and Existential Quantification
-- **Applications** - Minesweeper, Knights and Knaves
+### 🔹 Applications
+- Maze navigation  
+- 15-puzzle  
+- Six Degrees of Kevin Bacon  
+- Tic-Tac-Toe  
 
-## 3. Uncertainty
-- Handling uncertain events using probabilistic methods.  
+---
 
-## 4. Optimization
-- Identifying not just any solution, but the most efficient or optimal solution to a problem.  
+## 📌 2. Knowledge
 
-## 5. Learning
-- Improving performance over time based on data and experience.  
-- Example: Email filters distinguishing spam from non-spam using historical data.  
+Knowledge representation enables AI systems to reason about the world logically.
 
-## 6. Neural Networks
-- Computational models inspired by the human brain capable of performing complex tasks effectively.  
+### 🔹 Propositional Logic
+- Logical symbols and connectives  
+- Models & knowledge bases  
+- Logical entailment  
 
-## 7. Language
-- Understanding and processing natural language, the way humans communicate.
+### 🔹 Inference Rules
+- Resolution  
+- DeMorgan’s Law  
+- Implication & Biconditional  
+- Double Negation  
+- And-Elimination  
+
+### 🔹 First-Order Logic (FOL)
+- Universal and Existential Quantifiers  
+
+### 🔹 Knowledge Engineering
+- Example: Designing a KB for the game **Clue**
+
+### 🔹 Applications
+- Minesweeper AI  
+- Knights and Knaves  
+
+---
+
+## 📌 3. Uncertainty
+
+Real-world environments involve randomness. AI models handle this using probability.
+
+- Bayesian reasoning  
+- Conditional independence  
+- Bayesian Networks  
+- Markov Models  
+- Hidden Markov Models (HMMs)  
+- Sampling methods  
+
+### 🔹 Applications
+- Speech recognition  
+- Medical diagnosis  
+- Object tracking  
+
+---
+
+## 📌 4. Optimization
+
+Optimization finds the best solution among many possible ones.
+
+- Local search  
+- Hill climbing  
+- Simulated annealing  
+- Constraint Satisfaction Problems (CSPs)
+
+### 🔹 Applications
+- Scheduling  
+- Map coloring  
+- Resource allocation  
+
+---
+
+## 📌 5. Learning
+
+Machine Learning enables systems to improve using data.
+
+- Supervised, Unsupervised, and Reinforcement Learning  
+- Classification & Regression  
+- Overfitting and Regularization  
+
+### 🔹 Example
+- Spam classification using historical email data
+
+---
+
+## 📌 6. Neural Networks
+
+Neural networks form the basis of modern deep learning.
+
+### 🔹 Core Concepts
+- Neurons & Network Architecture  
+- Activation Functions  
+- Perceptron  
+- Multilayer Networks  
+- Backpropagation  
+- Gradient Descent (Batch, Mini-Batch, Stochastic)  
+- Overfitting & Regularization  
+
+### 🔹 Deep Learning Tools
+- TensorFlow  
+- Keras  
+
+### 🔹 Computer Vision
+- Image Convolution  
+- Convolutional Neural Networks (CNNs)  
+- Recurrent Neural Networks (RNNs)  
+
+---
+
+## 📌 7. Natural Language Processing (NLP)
+
+Machines understanding human language.
+
+- Tokenization & Text Preprocessing  
+- Bag-of-Words / TF-IDF  
+- Word embeddings  
+- Basic sentiment analysis  
+
+-----
+
